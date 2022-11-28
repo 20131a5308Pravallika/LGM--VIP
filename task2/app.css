@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+}
+
+body {
+    background-color:#e39559;
+    background-image: linear-gradient(120deg, hsl(24, 77%, 71%) 0%, #fda085 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-top: 30rem;
+    color: rgb(201, 71, 28);
+    margin-left: 45rem;
+}
+
+h1 i {
+    color: rgb(109, 16, 16);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 25%;
+    background-color:#05e022;
+    background-image: linear-gradient(120deg, #ecee7d 0%, #fda085 100%);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    
+}
+
+.logo-text a {
+    font-family: "monospaced", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color:rgba(220, 57, 29, 0.874);
+    text-decoration: none;
+}
+
+.btn {
+    font-family: "cursive", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:#9aed6d;
+    text-decoration: overline;
+}
+
+.btn {
+    padding: 9px 25px;
+    background-color:rgb(240, 30, 30);
+    border-radius: 50px;
+    border: none;
+    cursor: progress;
+    transition: background-color 0.3s ease 0s;
+}
+
+.btn:hover {
+    background-color:rgb(13, 8, 0);
+}
+
+.cards {
+    display: table;
+}
+
+.card {
+    font-family: "serif", fantasy;
+    width: 340px;
+    overflow: hidden;
+    background:hsla(201, 85%, 61%, 0.902);
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    flex-direction: column;
+    border-radius: 2rem;
+    margin: 2rem;
+}
+
+.card-image img {
+    width: 300%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.profile-image img {
+    z-index: 1;
+    width: 220px;
+    height: 320px;
+    position: relative;
+    margin-top: -95px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    border: 10px solid rgb(238, 234, 219);
+    transition-duration: 0.4s;
+    transition-property: transform;
+}
+
+.profile-image img:hover {
+    transform: scale(1.1);
+}
+
+.card-content h3 {
+    font-size: 99px;
+    text-align:top;
+    margin-bottom: 11px;
+}
+
+.card-content h2 {
+    font-size: 65px;
+    text-align: bottom;
+    margin-bottom: 11px;
+    color:goldenrod;
+    text-decoration: overline;
+}
